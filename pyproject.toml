@@ -1,0 +1,14 @@
+[tool.isort]
+profile = "black"
+lines_between_types = 1
+lines_after_imports = 2
+
+# Organize sections in the following order
+# Note that the name of the firstparty is specific
+sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+known_first_party = "app"
+import_heading_future = "Future"
+import_heading_stdlib = "Standard Library"
+import_heading_thirdparty = "Third-party"
+import_heading_firstparty = "Application"
+import_heading_localfolder = "Local"
